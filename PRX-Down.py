@@ -3,7 +3,7 @@ print("""
 ╔═╗ ╦═╗ ═╗ ╦  ╔═╗┌─┐┬─┐┌─┐┌─┐┌─┐
 ╠═╝ ╠╦╝ ╔╩╦╝  ╚═╗│  ├┬┘├─┤├─┘├┤ 
 ╩   ╩╚═ ╩ ╚═  ╚═╝└─┘┴└─┴ ┴┴  └─┘
-<\> @TweakPY
+By @TweakPY - @vv1ck
 """)
 print('____________________')                
 p=int(input("Proxy Type\n\n[1]-http   [2]-https\n[3]-socks4 [4]-socks5\n> "))
