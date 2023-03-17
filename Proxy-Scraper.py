@@ -57,7 +57,8 @@ def https_proxies():
         'https://raw.githubusercontent.com/RX4096/proxy-list/main/online/https.txt',
         'https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt',
         'https://raw.githubusercontent.com/mmpx12/proxy-list/master/https.txt',
-        'https://raw.githubusercontent.com/hanwayTech/free-proxy-list/main/https.txt']
+        'https://raw.githubusercontent.com/hanwayTech/free-proxy-list/main/https.txt',
+        'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/https/https.txt']
     for url in urls:
         try:
             r=get(url,headers=headers).text
@@ -86,7 +87,8 @@ def http_proxies():
         'https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt',
         'https://raw.githubusercontent.com/RX4096/proxy-list/main/online/http.txt',
         'https://raw.githubusercontent.com/saisuiu/uiu/main/free.txt',
-        'https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt',]
+        'https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt',
+        'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt']
     for url in urls:
         try:
             r=get(url,headers=headers).text
@@ -109,7 +111,8 @@ def socks4_proxies():
         'https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS4.txt',
         'https://raw.githubusercontent.com/hanwayTech/free-proxy-list/main/socks4.txt',
         'https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks4.txt',
-        'https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks5.txt']
+        'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks4/socks4.txt',
+        'https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks4.txt']
     for url in urls:
         try:
             r=get(url,headers=headers).text
@@ -135,7 +138,8 @@ def socks5_proxies():
         'https://raw.githubusercontent.com/hanwayTech/free-proxy-list/main/socks5.txt',
         'https://raw.githubusercontent.com/manuGMG/proxy-365/main/SOCKS5.txt',
         'https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt',
-        'https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks5.txt']
+        'https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks5.txt',
+        'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt']
     for url in urls:
         try:
             r=get(url,headers=headers).text
@@ -151,6 +155,7 @@ def Proxy_Scraper_Core():
     socks5_proxies()
     sleep(1.9)
     Total()
+    
     
     
     
